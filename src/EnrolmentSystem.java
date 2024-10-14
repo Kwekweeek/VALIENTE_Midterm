@@ -92,16 +92,16 @@ public class EnrolmentSystem {
         Instructor instructor2 = new Instructor("Ms. Angela Caning", 24, "123456", "College of Engineering and Architecture", 25000);
 
         // Print details of each object using polymorphism
-        System.out.println("--<<{[Student 1 Information]}>>--");
+        System.out.println("--<<{ [ Student 1 Information ] }>>--");
         printDetails(student1); // Calls displayInfo() of Student
 
-        System.out.println("\n--<<{[Student 2 Information]}>>--");
+        System.out.println("\n--<<{ [ Student 2 Information ] }>>--");
         printDetails(student2); // Calls displayInfo() of Student
 
-        System.out.println("\n--<<{[Instructor 1 Information]}>>--");
+        System.out.println("\n--<<{ [ Instructor 1 Information ] }>>--");
         printDetails(instructor1); // Calls displayInfo() of Instructor
 
-        System.out.println("\n--<<{[Instructor 2 Information]}>>--");
+        System.out.println("\n--<<{ [ Instructor 2 Information ] }>>--");
         printDetails(instructor2); // Calls displayInfo() of Instructor
     }
 }
